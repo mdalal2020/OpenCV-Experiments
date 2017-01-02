@@ -1,0 +1,3 @@
+/Users/mdalal/Documents/code/cvtests/cvbook/thresh/build/CMakeFiles/rebuild_cache.dir
+/Users/mdalal/Documents/code/cvtests/cvbook/thresh/build/CMakeFiles/edit_cache.dir
+/Users/mdalal/Documents/code/cvtests/cvbook/thresh/build/CMakeFiles/thresh.dir

@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.6)
+cmake_policy(SET CMP0012 NEW)
+FIND_PACKAGE(OpenCV 3.1.0 REQUIRED)
+MESSAGE(“OPENCV version: ${OpenCV_Version}”)
+include_directories(${OpenCV_INCLUDE_DIRS})
+link_directories(${OpenCV_LIB_DIR})
+ADD_EXECUTABLE (thresh main.cpp)
+TARGET_LINK_LIBRARIES(thresh ${OpenCV_LIBS})
